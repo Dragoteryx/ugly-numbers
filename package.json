@@ -1,6 +1,6 @@
 {
   "name": "ugly-numbers",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A broken number class that only uses booleans. Because I can. Also it's not signed. However you can use them along with normal numbers just fine.",
   "main": "index.js",
   "scripts": {

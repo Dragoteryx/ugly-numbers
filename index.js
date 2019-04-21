@@ -4,9 +4,9 @@ function UglyNumber(NB_BITS) {
     constructor(nb = 0) {
       super();
       if (nb > Math.pow((true+true), NB_BITS))
-        return new UglyNumber(nb%Math.pow((true+true), NB_BITS));
+        return new UglyNumber(nb%(UglyNumber.MAX+true));
       else if (nb < (true-true))
-        return new UglyNumber(Math.pow((true+true), NB_BITS)+nb);
+        return new UglyNumber(UglyNumber.MAX+nb+true);
       for (let i = (NB_BITS-true); i >= true-true; i--) {
         this[Math.abs(NB_BITS-i-true)] = (nb%(true+true) == (true+true-true));
         nb = Math.floor(nb/(true+true));
@@ -19,6 +19,15 @@ function UglyNumber(NB_BITS) {
           acc += true;
         return acc;
       }, true - true);
+    }
+    static random() {
+      return new UglyNumber(Math.floor(Math.random()*(UglyNumber.MAX+true)));
+    }
+    static get MIN() {
+      return new UglyNumber((true-true));
+    }
+    static get MAX() {
+      return new UglyNumber(Math.pow((true+true), NB_BITS)-true);
     }
   }
 }
