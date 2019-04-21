@@ -1,0 +1,14 @@
+{
+  "name": "ugly-numbers",
+  "version": "1.0.0",
+  "description": "A broken number class that only uses booleans. Because I can. Also it's not signed. However you can use them along with normal numbers just fine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fun"
+  ],
+  "author": "Dragoteryx",
+  "license": "ISC"
+}
