@@ -25,6 +25,9 @@ function UglyNumber(NB_BITS) {
 
 module.exports = {
   UglyNumber: UglyNumber,
+  UglyNumber1: UglyNumber(1),
+  UglyNumber2: UglyNumber(2),
+  UglyNumber4: UglyNumber(4),
   UglyNumber8: UglyNumber(8),
   UglyNumber16: UglyNumber(16),
   UglyNumber32: UglyNumber(32),
